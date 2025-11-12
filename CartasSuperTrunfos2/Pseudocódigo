@@ -1,0 +1,46 @@
+INÍCIO
+
+// DECLARAÇÃO DE VARIÁVEIS
+Para cada Carta (1 e 2):
+    - estado: caractere
+    - código: texto
+    - cidade: texto
+    - população: inteiro sem sinal grande
+    - área: decimal
+    - PIB: decimal
+    - pontos turísticos: inteiro
+    - densidade: decimal
+    - PIB per capita: decimal
+    - super_poder: decimal
+
+// ENTRADA DE DADOS
+Para cada Carta:
+    - Solicitar estado
+    - Solicitar código
+    - Solicitar cidade
+    - Solicitar população
+    - Solicitar área
+    - Solicitar PIB
+    - Solicitar pontos turísticos
+
+// CÁLCULOS
+Para cada Carta:
+    - densidade = população / área
+    - PIB per capita = PIB * 1.000.000.000 / população
+    - super_poder = população + área + PIB + pontos turísticos + PIB per capita + (1 / densidade)
+
+// EXIBIÇÃO DE DADOS
+Para cada Carta:
+    - Mostrar estado, código, cidade, população, área, PIB, pontos turísticos
+    - Mostrar densidade, PIB per capita e super_poder
+
+// COMPARAÇÃO DE ATRIBUTOS
+Para cada atributo (população, área, PIB, pontos turísticos, densidade, PIB per capita, super_poder):
+    - Se atributo da Carta 1 vence:
+        - Mostrar "Carta 1 venceu"
+    - Senao se atributo da Carta 2 vence:
+        - Mostrar "Carta 2 venceu"
+    - Senao:
+        - Mostrar "Empate"
+
+// FIM

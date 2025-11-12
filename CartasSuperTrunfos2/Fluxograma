@@ -1,0 +1,36 @@
+[Início]
+    |
+    v
+[Entrada de dados Carta 1]
+    |
+    v
+[Entrada de dados Carta 2]
+    |
+    v
+[Cálculo atributos Carta 1 e Carta 2]
+    |-> densidade = população / área
+    |-> PIB per capita = PIB * 1.000.000.000 / população
+    |-> super_poder = população + área + PIB + pontos + PIB per capita + (1 / densidade)
+    |
+    v
+[Exibir dados Carta 1]
+    |
+    v
+[Exibir dados Carta 2]
+    |
+    v
+[Comparar atributos]
+    |-> População: maior vence
+    |-> Área: maior vence
+    |-> PIB: maior vence
+    |-> Pontos turísticos: maior vence
+    |-> Densidade: menor vence
+    |-> PIB per capita: maior vence
+    |-> Super Poder: maior vence
+    |
+    v
+[Exibir resultados comparações]
+    |
+    v
+[Fim]
+
